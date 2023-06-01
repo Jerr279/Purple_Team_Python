@@ -2,10 +2,10 @@ from scapy.all import *
 import pyfiglet
 
 # input ip,ports,blocked adresses and honeyports
-ip = "192.168.2.59"
+ip = "192.168.0.0"
 ports = [54, 80, 443]
 honeyports = [443, 8080, 8443]
-blocked = []
+blocked = [80, 22]
 
 def packetAnalysis(p):
     global blocked
