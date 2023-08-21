@@ -29,7 +29,7 @@ def PrintBanner():
             ⠀⠀⠀⠀⠀⠀⠀⠀⡿⢸⣿⣏⣿⣿⣿⣿⣿⣽⡀⢹⠰⣚⣯⣾⣿⣿⡟⠉⠀⢀⡀⢠⢷⡇⠀⠀⠀⠀⠀⠀⠀
             ⠀⠀⠀⠀⠀⠀⠀⠀⡇⢸⣿⡿⣿⡿⣿⣿⣿⣿⣷⠈⣦⣿⡯⠀⡾⠋⠁⠰⣶⡟⢁⠎⣿⠁⠀⠀⠀⠀⠀⠀⠀
         {Style.RESET_ALL}
-                -=[ UPTF v0.1-dev            ]=-
+                -=[ UPTF v0.1-dev           ]=-
                 -=[ Copyright By {Fore.BLUE}Jerr{Style.RESET_ALL}       ]=-
                 -=[ Twitter : {Back.GREEN}@JerrDeadSec{Style.RESET_ALL}  ]=-
                 -=[ Email : jerr@gmail.com  ]=-
