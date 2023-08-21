@@ -39,17 +39,15 @@ def packetAnalysis(p):
             if port in honeyports:
                 response[TCP].flags = "SA"
                 sendp(response,vebose=False)
+    ascii_banner = pyfiglet.figlet_format("Honeyports And blocking ports")
+    print(ascii_banner)
+    print("\033[0;32m"+"by Jerr279")
+    print("Now protecting your System")
 
-
+    f = "dst host "+ip+" and tcp"
+    sniff(filter=f,prn=packetAnalysis)
+    
 # Inspiration from honeyscript from Howard Poston
-ascii_banner = pyfiglet.figlet_format("Honeyports And blocking ports")
-print(ascii_banner)
-print("\033[0;32m"+"by Jerr279")
-print("Now protecting your network")
-
-f = "dst host "+ip+" and tcp"
-sniff(filter=f,prn=packetAnalysis)
-
 
 # Here for ease of use in case it is needed
 # top 1000 tcp ports add or remove
